@@ -1,6 +1,6 @@
 import React from "react";
 
-function SearchBar() {
+function SearchBar({ onSort }) {
   return (
     <div>
       <strong>Sort by:</strong>
